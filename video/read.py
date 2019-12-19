@@ -13,7 +13,7 @@ class Reader(metaclass=ABCMeta):
 
     def read(self):
         """
-        イメージを取得し続ける
+        フレームを取得する
         """
         pass
 
