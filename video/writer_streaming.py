@@ -1,7 +1,8 @@
 import subprocess as sp
+from read import Reader
 
 
-class StreamingWriter:
+class StreamingWriter(Reader):
     def __init__(self, video_input, video_output, frame_size, fps=None):
         self.video_writer = None
         self.input = video_input
