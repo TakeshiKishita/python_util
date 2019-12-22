@@ -1,0 +1,6 @@
+[submodule "v4l2loopback"]
+	path = v4l2loopback
+	url = git@github.com:umlaeute/v4l2loopback.git
+[submodule "aiortc"]
+	path = aiortc
+	url = git@github.com:aiortc/aiortc.git
