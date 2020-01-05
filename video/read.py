@@ -5,19 +5,19 @@ class Reader(metaclass=ABCMeta):
     """
     動画読み込みの、抽象基底クラス
     """
-    def open(self):
+    def open(self, **kwargs):
         """
         読み取り機能を開く
         """
         pass
 
-    def read(self):
+    def read(self, **kwargs):
         """
         フレームを取得する
         """
         pass
 
-    def close(self):
+    def close(self, **kwargs):
         """
         処理を終了する
         """
